@@ -167,5 +167,34 @@
     .space {
       flex-direction: column;
     }
+      @media only screen and (min-width: 100px) and (max-width: 203px) {
+    .space {
+        margin-left: 0;
+        flex-direction: column;
+        height: 25vh;
+    }
+    .abovecontent {
+        top: 6%;
+        left: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .card-container {
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+    }
+    .cards {
+        padding: 1%;
+        width: 13vh;
+    }
+    .card-title h1 {
+        font-size: 20px;
+    }
+    #pastaImg {
+        height: 40%;
+    }
+
   }
   
